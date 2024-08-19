@@ -5,7 +5,7 @@ pipeline {
         }
     }
     environment {
-        DOCKER_IMAGE = 'nmmalmquist/beckett-ridge-family-medicine-website-templ'
+        DOCKER_IMAGE = 'nmmalmquist/beckett-ridge-family-medicine-website:templ'
         DOCKER_HUB_USERNAME = "nmmalmquist"
         DOCKER_HUB_ACCESS_TOKEN = credentials('docker-hub-token-nmmalmquist')
         SSH_REMOTE = 'nmalmquist@99.45.53.198'
