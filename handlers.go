@@ -12,6 +12,6 @@ func render(ctx echo.Context, cmp templ.Component) error {
 }
 
 func indexHandler(ctx echo.Context) error {
-	element := pages.Hello("Lets go")
+	element := pages.Index("Lets go")
 	return render(ctx, element)
 }

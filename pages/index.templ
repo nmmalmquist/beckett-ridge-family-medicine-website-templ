@@ -1,0 +1,10 @@
+package pages
+
+import "app/layout"
+
+
+templ Index(name string) {
+	@layout.Layout("Home Page", "This is the home page description",[][2]string{{"Author", "Nick Malmquist"}}){
+		<main class="text-green-500">Index page</main>
+	}
+}
